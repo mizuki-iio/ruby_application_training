@@ -20,6 +20,7 @@ class Drink
   end
 
   # インスタンスメソッド
+  # 購入後に在庫を減らす処理
   def pay
     @number -= 1
   end

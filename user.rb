@@ -15,6 +15,7 @@ class User
   end
 
   # インスタンスメソッド
+  # ドリンク選択
   def choose_drink
     gets.to_i
   end
