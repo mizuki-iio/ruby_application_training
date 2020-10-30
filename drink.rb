@@ -1,0 +1,26 @@
+class Drink
+  # 初期化
+  def initialize(name, price, number)
+    @name = name
+    @price = price
+    @number = number
+  end
+  
+  # ゲッター
+  def name
+    @name
+  end
+
+  def price
+    @price
+  end
+
+  def number
+    @number
+  end
+
+  # インスタンスメソッド
+  def pay
+    @number -= 1
+  end
+end
